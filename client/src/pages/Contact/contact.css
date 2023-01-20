@@ -1,0 +1,107 @@
+
+#banner {
+    height: 20vh;
+    width: 100vw;  
+    text-align: center; 
+    margin-top: 2vh;
+  }
+  
+  #contact-page {
+    height: 70vh;
+    width: 100vw;  
+   
+}
+
+
+.connect {
+    color:black;   
+    text-align: center;       
+    font-size: 5em;  
+    margin-bottom: 20vh; 
+}
+
+input{
+    width: 20vw;
+ }
+ textarea{
+  width: 20vw;
+ }
+
+#contact-footer {    
+    width: 100vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-icon {
+    height: 5vh;   
+    padding: 1.5em;    
+}
+
+@media (max-height: 1300px){
+
+    #contact-form {
+        position: absolute;
+        top:  30vh;
+        right: 25vw;
+      }
+      #contact-pic {
+        margin-left: 5vw;
+        width:45vw;
+      }
+}
+
+@media (max-width: 960px) {
+    #contact-form {
+        position: absolute;
+        top: 25vh;
+        right: 10vw;
+      }
+      #contact-footer {
+        margin-top: 30vh;
+       }
+}
+
+
+
+@media (max-width: 600px) {
+  #banner {
+    padding-top: 5vh;
+  }
+   .connect {
+    font-size: 3em;    
+    margin-right: 10vw;
+   }
+
+   #contact-pic {
+    display:none;
+    
+   }
+
+   #contact-form {
+    margin-left: 10vw;
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 20vh;
+   } 
+
+   #contact-footer {
+    margin-top: 0;
+   }
+   input{
+    width: 70vw;
+ }
+ textarea{
+  width: 70vw;
+ }
+}
+
+@media (max-width: 300px) {    
+
+    #banner {
+        margin-bottom: 5vh;
+    }
+}

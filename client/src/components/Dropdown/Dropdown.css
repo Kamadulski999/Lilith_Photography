@@ -1,0 +1,42 @@
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 45px;   
+    list-style: none;
+    text-align: center;
+    background-color: white; 
+       
+}
+.dropdown-menu * {
+    color: black!important;
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+    }
+
+
+.dropdown-menu.clicked {
+    display:none
+}
+.dropdown-link{
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdown-menu {                   
+    width: 200px; 
+    position: absolute;
+    top: 55px;   
+    list-style: none;
+    text-align: center;
+                     
+     
+    }
+    
+}
