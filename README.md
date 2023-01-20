@@ -1,3 +1,3 @@
 ## Lilith Photography
 
-This site features a React front end combined with an Express server for delivering content.
+This site features a React front end combined with an Express server. 
